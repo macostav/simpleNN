@@ -46,8 +46,8 @@ if __name__ == "__main__":
     for i in range(1, num_samples+1):
         # Generate straight line
         x, y = generate_straight_line()
-        save_image(x,y, f"data/training/straight/straight_{i}.png")
+        save_image(x,y, f"data/testing/straight/straight_{i}.png")
 
         # Generate parabola
         x,y = generate_parabola()
-        save_image(x,y, f"data/training/parabola/parabola_{i}.png")
+        save_image(x,y, f"data/testing/parabola/parabola_{i}.png")
