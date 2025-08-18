@@ -1,2 +1,2 @@
 # simpleNN
-Making a simple NN.
+Making a simple NN that identifies images.
